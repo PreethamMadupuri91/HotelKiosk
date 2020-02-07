@@ -1,0 +1,251 @@
+    // $scope.arr1 = [
+    //     [
+    //         "Clover ID",
+    //         "Clover Category ID",
+    //         "Name",
+    //         "Description ",
+    //         "Image URL "
+    //     ],
+    //     [
+    //         "NGWZVDPY8TDMT",
+    //         "Q60DBGQ1PV98C",
+    //         "Lunch Buffet (Mon - Thur)",
+    //         "Lunch Buffet (Mon - Thur)"
+    //     ],
+    //     [
+    //         "86WMB5TRW05AM",
+    //         "Q60DBGQ1PV98C",
+    //         "Lunch Buffet (Fri - Sun)",
+    //         "Lunch Buffet (Fri - Sun)"
+    //     ],
+    //     [
+    //         "ZGCC2C8SGGR00",
+    //         "9HH9QQQY0VWPR",
+    //         "Tomato Roasted Garlic Soup",
+    //         "Roasted garlic with tomato soup served piping hot"
+    //     ],
+    //     [
+    //         "3EJB4ZE6BFWM0",
+    //         "9HH9QQQY0VWPR",
+    //         "Murgh Dhaniya Shorba",
+    //         "An aromatic Chicken shorba flavoured with fresh coriander and indian spices.",
+    //         "https://photos.google.com/share/AF1QipOFi3U6QM9fC6AYUwSBCB_MIAo9P7fCeS0qtOMURcrHOptGdMciIW1gbknLKJ_a2Q/photo/AF1QipPG39erzADywtQPgA4hffcn74iANqVNLtwkO0dp?key=QWxaNkZ6amVMQk5BSXpYZ3Q2U3U0QXdndG90S3Jn"
+    //     ],
+    //     [
+    //         "ARWNSFQMQSDGR",
+    //         "9HH9QQQY0VWPR",
+    //         "Paya Soup",
+    //         "Shorba made from Lamb trotter simmered to get the right taste and texture.",
+    //         "https://photos.google.com/share/AF1QipOFi3U6QM9fC6AYUwSBCB_MIAo9P7fCeS0qtOMURcrHOptGdMciIW1gbknLKJ_a2Q/photo/AF1QipPFcYtufynxA5B2OXfpeMforWGp-1bxtgii5JMu?key=QWxaNkZ6amVMQk5BSXpYZ3Q2U3U0QXdndG90S3Jn"
+    //     ],
+    //     [
+    //         "FTPD4YRDX6JQW",
+    //         "KBWHSAY5N1AWW",
+    //         "Dal Makhani",
+    //         "Lentils Simmered in Creamy Tomato Sauce",
+    //         "https://photos.google.com/share/AF1QipOFi3U6QM9fC6AYUwSBCB_MIAo9P7fCeS0qtOMURcrHOptGdMciIW1gbknLKJ_a2Q/photo/AF1QipOMioT1rJYLGGj2i1QvIAZcpzsfQHl_kI1shCTd?key=QWxaNkZ6amVMQk5BSXpYZ3Q2U3U0QXdndG90S3Jn"
+    //     ],
+    //     [
+    //         "A122DNK1T13SR",
+    //         "KBWHSAY5N1AWW",
+    //         "Peelidhal",
+    //         "Moong dal cooked with onion, tomatoes, garlic ,whole red chilli"
+    //     ],
+    //     [
+    //         "DNHR9RMP41M2R",
+    //         "KBWHSAY5N1AWW",
+    //         "Dal Palak",
+    //         "Toor dal and spinach cooked with chilli ,garlic tampering with mustard and curry leaves",
+    //         "https://photos.google.com/share/AF1QipOFi3U6QM9fC6AYUwSBCB_MIAo9P7fCeS0qtOMURcrHOptGdMciIW1gbknLKJ_a2Q/photo/AF1QipOyqJ-SWOW5x9024avGay2kLzOk8J5UWz8Z2vml?key=QWxaNkZ6amVMQk5BSXpYZ3Q2U3U0QXdndG90S3Jn"
+    //     ],
+    //     [
+    //         "3BDW0PGX5A6E8",
+    //         "KBWHSAY5N1AWW",
+    //         "Malai Kofta",
+    //         "Potato and paneer dumpling with creamy cashewnut gravy",
+    //         "https://photos.google.com/share/AF1QipOFi3U6QM9fC6AYUwSBCB_MIAo9P7fCeS0qtOMURcrHOptGdMciIW1gbknLKJ_a2Q/photo/AF1QipPOmM2RD39mHNiaBJwu1qYkDnA4u-Ml0gq8aTSh?key=QWxaNkZ6amVMQk5BSXpYZ3Q2U3U0QXdndG90S3Jn"
+    //     ],
+    //     [
+    //         "N6SER45F90Z9E",
+    //         "KBWHSAY5N1AWW",
+    //         "Paneer Butter Masala",
+    //         "Soft cottage cheese cubes are simmered in creamy, buttery, cashew nuts onion-tomato gravy"
+    //     ],
+    //     [
+    //         "8CJ70WQZJ20RE",
+    //         "KBWHSAY5N1AWW",
+    //         "Palak Paneer",
+    //         "Soft cottage cheese Purée of spinach and seasoned with garlic, garam masala, cream and other spices.",
+    //         "https://photos.google.com/share/AF1QipOFi3U6QM9fC6AYUwSBCB_MIAo9P7fCeS0qtOMURcrHOptGdMciIW1gbknLKJ_a2Q/photo/AF1QipMFk8Ln9Kja9CSeIxV7fNnlC1DCy7fRHzpp0Ojv?key=QWxaNkZ6amVMQk5BSXpYZ3Q2U3U0QXdndG90S3Jn"
+    //     ],
+    //     [
+    //         "VJCTR2V92DP4Y",
+    //         "KBWHSAY5N1AWW",
+    //         "Mushroom Palak",
+    //         "Seasoned spinach puree with mushroom and cream",
+    //         "https://photos.google.com/share/AF1QipOFi3U6QM9fC6AYUwSBCB_MIAo9P7fCeS0qtOMURcrHOptGdMciIW1gbknLKJ_a2Q/photo/AF1QipNywlZopd3guTEiyj4fbbiNa4-UUVYaLCJw6HV-?key=QWxaNkZ6amVMQk5BSXpYZ3Q2U3U0QXdndG90S3Jn"
+    //     ],
+    //     [
+    //         "JNHY2EX5M63CW",
+    //         "KBWHSAY5N1AWW",
+    //         "Mushroom Mutter Masala",
+    //         "Mushroom and green peas with creamy, buttery, cashew nuts onion-tomato gravy",
+    //         "https://photos.google.com/share/AF1QipOFi3U6QM9fC6AYUwSBCB_MIAo9P7fCeS0qtOMURcrHOptGdMciIW1gbknLKJ_a2Q/photo/AF1QipOyHOD8WKOp0LvtLgsUXveSsKr_PoVofkshz9Fi?key=QWxaNkZ6amVMQk5BSXpYZ3Q2U3U0QXdndG90S3Jn"
+    //     ],
+    //     [
+    //         "E0CX5KSN9K0P4",
+    //         "KBWHSAY5N1AWW",
+    //         "Aloo Capsicum Mutter",
+    //         "Potatoes, capsicum and peas with onion ,tomato gravy spiced with garam masala and cumin powder",
+    //         "https://photos.google.com/share/AF1QipOFi3U6QM9fC6AYUwSBCB_MIAo9P7fCeS0qtOMURcrHOptGdMciIW1gbknLKJ_a2Q/photo/AF1QipMqCZta3fiT61-h_TVlklTi8sGyHxPcN-ic8PTL?key=QWxaNkZ6amVMQk5BSXpYZ3Q2U3U0QXdndG90S3Jn"
+    //     ],
+    //     [
+    //         "HW294RQHRHF84",
+    //         "KBWHSAY5N1AWW",
+    //         "Bhagara Beaigan",
+    //         "Baby eggplant with coconut, sesame seeds, peanuts and tomato gravy",
+    //         "https://photos.google.com/share/AF1QipOFi3U6QM9fC6AYUwSBCB_MIAo9P7fCeS0qtOMURcrHOptGdMciIW1gbknLKJ_a2Q/photo/AF1QipMc1FFsT0ci0XWu_d0bCvG5B8qEVEVMtdPtyNUJ?key=QWxaNkZ6amVMQk5BSXpYZ3Q2U3U0QXdndG90S3Jn"
+    //     ]
+    // ]
+
+    // $scope.arr2 = [
+    //     [
+    //         {
+    //             alternateName: "",
+    //             code: "",
+    //             defaultTaxRates: true,
+    //             hidden: false,
+    //             id: "0FFZSWRH4RK9Y",
+    //             isRevenue: true,
+    //             modifiedTime: 1562893841000,
+    //             name: "$17 Gold Package",
+    //             price: 1700,
+    //             priceType: "FIXED",
+    //             sku: "",
+    //             unitName: ""
+    //         },
+    //         {
+    //             alternateName: "",
+    //             code: "",
+    //             defaultTaxRates: true,
+    //             hidden: false,
+    //             id: "PP4VM8YDCKERE",
+    //             isRevenue: true,
+    //             modifiedTime: 1562893888000,
+    //             name: "$15 Silver Package (All Veg)",
+    //             price: 1500,
+    //             priceType: "FIXED",
+    //             sku: "",
+    //             unitName: ""
+    //         },
+    //         {
+    //             alternateName: "",
+    //             code: "",
+    //             defaultTaxRates: true,
+    //             hidden: false,
+    //             id: "R31YZ9GAVAW0M",
+    //             isRevenue: true,
+    //             modifiedTime: 1562893909000,
+    //             name: "$19 Platinum Package",
+    //             price: 1900,
+    //             priceType: "FIXED",
+    //             sku: "",
+    //             unitName: ""
+    //         }
+    //     ],
+    //     [
+    //         {
+    //             code: "",
+    //             cost: 0,
+    //             defaultTaxRates: true,
+    //             hidden: false,
+    //             id: "FTPD4YRDX6JQW",
+    //             isRevenue: true,
+    //             modifiedTime: 1512652693000,
+    //             name: "Dal Makhani",
+    //             price: 999,
+    //             priceType: "FIXED",
+    //             sku: "",
+    //             stockCount: ""
+    //         },
+    //         {
+    //             code: "",
+    //             cost: 0,
+    //             defaultTaxRates: true,
+    //             hidden: false,
+    //             id: "A122DNK1T13SR",
+    //             isRevenue: true,
+    //             modifiedTime: 1512652693000,
+    //             name: "Peelidhal",
+    //             price: 999,
+    //             priceType: "FIXED",
+    //             sku: "",
+    //             stockCount: 0,
+    //             unitName: ""
+    //         },
+    //         {
+    //             code: "",
+    //             cost: 0,
+    //             defaultTaxRates: true,
+    //             hidden: false,
+    //             id: "DNHR9RMP41M2R",
+    //             isRevenue: true,
+    //             modifiedTime: 1512652693000,
+    //             name: "Dal Palak",
+    //             price: 999,
+    //             priceType: "FIXED",
+    //             sku: "",
+    //             stockCount: 0,
+    //             unitName: ""
+    //         },
+    //         {
+    //             code: "",
+    //             cost: 0,
+    //             defaultTaxRates: true,
+    //             hidden: false,
+    //             id: "3BDW0PGX5A6E8",
+    //             isRevenue: true,
+    //             modifiedTime: 1512652693000,
+    //             name: "Malai Kofta",
+    //             price: 999,
+    //             priceType: "FIXED",
+    //             sku: "",
+    //             stockCount: 0,
+    //             unitName: ""
+    //         },
+    //         {
+    //             code: "",
+    //             cost: 0,
+    //             defaultTaxRates: true,
+    //             hidden: false,
+    //             id: "N6SER45F90Z9E",
+    //             isRevenue: true,
+    //             modifiedTime: 1512652693000,
+    //             name: "Paneer Butter Masala",
+    //             price: 1099,
+    //             priceType: "FIXED",
+    //             sku: "",
+    //             stockCount: 0,
+    //             unitName: ""
+    //         }
+    //     ]
+    // ]
+    // // console.log($scope.arr1)
+
+
+
+    // _.each($scope.arr1, function (menu_item) {
+    //     var item_id = menu_item[0];
+    //     var item_catg = menu_item[1];
+    //     var item_desc = menu_item[3];
+    //     var item_image = menu_item[4];
+    //     _.each($scope.arr2, function (item) {
+    //         _.each(item, function (prdt) {
+    //             if (item_id == prdt.id) {
+    //                 $scope.local_items.push({ id: item_id, catg_id: item_catg, name: prdt.name, description: item_desc, image_url: item_image, price: prdt.price })
+    //             }
+    //         })
+    //     })
+    // })
+
+    // localStorage.setItem("menu_items", JSON.stringify($scope.local_items));

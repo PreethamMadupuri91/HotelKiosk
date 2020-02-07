@@ -1,0 +1,22 @@
+<ion-view>
+    <ion-nav-bar class="bar-stable l-app-hdr">
+        <ion-nav-title>
+            <p>Items</p>
+        </ion-nav-title>
+        <ion-nav-buttons side="right">
+            <i class="icon ion-ios-search placeholder-icon" ng-click="searchitem()"></i>
+        </ion-nav-buttons>
+        <ion-nav-back-button>
+        </ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-content class="padding">
+        <div class="list l-catg-item-list" ng-repeat="item in items">
+            <a class="item item-thumbnail-left" ng-click="gotoitemdescription(item)">
+                <img ng-src="{{item.image_url}}" alt="{{item.name}}">
+                <h2>{{item.name}}</h2>
+                <p>&#36; {{item.price/100}}</p>
+            </a>
+            <hr>
+        </div>
+    </ion-content>
+</ion-view>

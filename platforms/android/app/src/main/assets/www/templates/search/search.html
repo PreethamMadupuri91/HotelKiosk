@@ -1,0 +1,33 @@
+<ion-view>
+    <ion-nav-bar class="bar-stable l-app-hdr">
+        <ion-nav-title>
+            <p>Search</p>
+        </ion-nav-title>
+        <ion-nav-back-button>
+        </ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-content>
+        <div class="list list-inset l-search-item-search">
+            <label class="item item-input">
+                <i class="icon ion-ios-search placeholder-icon"></i>
+                <input type="text" placeholder="Search" ng-model="search_query">
+            </label>
+        </div>
+        <div class="list l-catg-item-list" ng-repeat="item in items | filter: search_query as results" ng-show="search_query">
+            <a class="item item-thumbnail-left" ng-click="gotoitemdescription(item)">
+                <img src="img/hmpg-bg-img.jpg">
+                <h2>{{item.name}}</h2>
+                <p>&#36; {{item.price/100 }}</p>
+            </a>
+            <hr>
+        </div>
+        <div class="l-search-icon-cont text-center" ng-hide="search_query">
+            <img  src="img/hmpg-catg-icon.svg" alt="Dish Icon">
+            <p ng-hide="search_query">Search for Dishes.</p>
+        </div>
+        <div class="l-search-icon-cont text-center" ng-show="results.length == 0">
+                <img  src="img/hmpg-catg-icon.svg" alt="Dish Icon">
+                <p >No items found.</p>
+            </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,180 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-network-information",
+        "scope": null,
+        "escapedName": "cordova-plugin-network-information",
+        "name": "cordova-plugin-network-information",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "E:\\mob_app\\digital-menu"
+    ]
+  ],
+  "_from": "cordova-plugin-network-information@latest",
+  "_hasShrinkwrap": false,
+  "_id": "cordova-plugin-network-information@2.0.2",
+  "_inCache": true,
+  "_integrity": "",
+  "_location": "/cordova-plugin-network-information",
+  "_nodeVersion": "12.3.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-network-information_2.0.2_1562090896573_0.9550146952299199"
+  },
+  "_npmUser": {
+    "name": "sujan12",
+    "email": "piotrowski+npmjs.com@gmail.com"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-network-information",
+    "scope": null,
+    "escapedName": "cordova-plugin-network-information",
+    "name": "cordova-plugin-network-information",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-network-information/-/cordova-plugin-network-information-2.0.2.tgz",
+  "_shasum": "f48a92cbd7cccb63cb0a5e5a00030001b8ac4fea",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-network-information",
+  "_where": "E:\\mob_app\\digital-menu",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://github.com/apache/cordova-plugin-network-information/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-network-information",
+    "platforms": [
+      "android",
+      "ios",
+      "windows",
+      "browser"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova Network Information Plugin",
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-config-semistandard": "^11.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-NwO3qDBNL/vJxUxBTPNOA1HvkDf9eTeGH8JSZiwy1jq2W2mJKQEDBwqWkaEQS19Yd/MQTiw0cykxg5D7u4J6cQ==",
+    "shasum": "f48a92cbd7cccb63cb0a5e5a00030001b8ac4fea",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-network-information/-/cordova-plugin-network-information-2.0.2.tgz",
+    "fileCount": 21,
+    "unpackedSize": 90154,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdG52RCRA9TVsSAnZWagAAxoIP/1EhqGmDa7VNDyoDo35d\n8X15mg+g7JABncdUSzo3lHxoFAjd5CKeAr6ziWtOLxSXnPsNEBzOqw4ZD1L1\nxpeQyNwxxdSE3a8fAFPWiOBo2fGU/4dqFVVYQaas0gh80bcP7D7L++xuq5iE\nXzF9PRGIGlzEsgjsBIgJjrJeo1L3M/lzsE3QqlvL6cmN/JpbbbGkwko/kiNO\nDGK2n4MYvYi2SIVP3YEQv8GgUoCGUjJf0mqaTKrWx5JGLHmzjkqqkfI8Sg/E\n9TCddGATX++Js6VNU/MTD9WpBPggOVLlStoZwBVcChw9QQckOtbw4QhHmAkg\n/Md4Z40kUZxyye3jStOA77lyaN9aSAshvVUG5P5U/Zip/BzL5r0OVhHAkiwc\n2MbQWZHbHJZauBlUjkmhNtOYNcEVMI3vyRUI7lAvfnuLcaeSy8W8GIpnRjvK\neQPZT2EUB/7kY+/GQIUM3potwist90z3MWoBPXuzcublbN/Zigv6wP2vIATO\n6ZZA4pz9EKdYnZLbqhQCiVgtdKBD3vzqoFi4b7eVQBh5/WjjdRaLqslmvNFH\nTRc6ILC6dnduvUHal/S3CP1tDQn9WDujFB/p4gQbXAh4muvzVa08ZB/nkSt/\nzNs3xNz5ZFJPO2sgmJ3gmt42fP45mtj/l8Bipwl3nmZgk/eSOYJDXDZiInV+\nzlis\r\n=8I6i\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/apache/cordova-plugin-network-information#readme",
+  "keywords": [
+    "cordova",
+    "network",
+    "information",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows",
+    "cordova-browser"
+  ],
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "anis",
+      "email": "anis.kadri@gmail.com"
+    },
+    {
+      "name": "bowserj",
+      "email": "bowserj@apache.org"
+    },
+    {
+      "name": "brodybits",
+      "email": "chris@brody.consulting"
+    },
+    {
+      "name": "cordovaowner",
+      "email": "apachecordovabot@gmail.com"
+    },
+    {
+      "name": "csantanapr",
+      "email": "csantana23@gmail.com"
+    },
+    {
+      "name": "dpogue",
+      "email": "darryl@dpogue.ca"
+    },
+    {
+      "name": "erisu",
+      "email": "erisu.dev@outlook.jp"
+    },
+    {
+      "name": "filmaj",
+      "email": "maj.fil@gmail.com"
+    },
+    {
+      "name": "jcesarmobile",
+      "email": "jcesarmobile@gmail.com"
+    },
+    {
+      "name": "macdonst",
+      "email": "simon.macdonald@gmail.com"
+    },
+    {
+      "name": "purplecabbage",
+      "email": "purplecabbage@gmail.com"
+    },
+    {
+      "name": "shazron",
+      "email": "shazron@gmail.com"
+    },
+    {
+      "name": "stevegill",
+      "email": "stevengill97@gmail.com"
+    },
+    {
+      "name": "sujan12",
+      "email": "piotrowski+npmjs.com@gmail.com"
+    },
+    {
+      "name": "surajpindoria",
+      "email": "suraj.pindoria@yahoo.com"
+    }
+  ],
+  "name": "cordova-plugin-network-information",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-plugin-network-information.git"
+  },
+  "scripts": {
+    "eslint": "eslint www && eslint src && eslint tests",
+    "test": "npm run eslint"
+  },
+  "types": "./types/index.d.ts",
+  "version": "2.0.2"
+}

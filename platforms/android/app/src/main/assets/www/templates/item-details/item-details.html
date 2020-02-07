@@ -1,0 +1,23 @@
+<ion-view>
+    <ion-nav-bar class="bar-stable l-app-hdr">
+        <ion-nav-title>
+            <p>Description</p>
+        </ion-nav-title>
+        <ion-nav-back-button>
+        </ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-content>
+        <div class="item-detpg-prdtimg"></div>
+        <div class="item-descpg-hdr font-size-26px text-center">{{item.name}}</div>
+        <div class="item-descpg-desc">
+            <p>{{item.description}}</p>
+        </div>
+    </ion-content>
+    <ion-footer-bar class="bar item-descpg-price-ftr">
+        <div class="row">
+            <div class="col text-center">
+                Single Price : &#36; {{item.price/100}}
+            </div>
+        </div>
+    </ion-footer-bar>
+</ion-view>

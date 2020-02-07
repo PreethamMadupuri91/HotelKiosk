@@ -1,0 +1,24 @@
+<ion-view>
+    <ion-nav-bar class="bar-stable l-app-hdr">
+        <ion-nav-title>
+            <p>Categories</p>
+        </ion-nav-title>
+        <ion-nav-buttons side="right">
+            <i class="icon ion-ios-search placeholder-icon" ng-click="searchitem()"></i>
+        </ion-nav-buttons>
+        <ion-nav-back-button>
+        </ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-content class="has-header">
+        <div class="row menu-catg-rw">
+            <div class="col menu-catg-cont text-center" ng-repeat="item in categories | orderBy :'catg_sort_order'"
+                ng-click="gotoitems(item.catg_id)">
+                <div class="menu-catg-name">
+                    <img ng-src="img/drinks-icon.png" alt="category icon">
+                    <p class="font-size-22px">{{item.catg_name}}</p>
+                </div>
+            </div>
+        </div>
+        
+    </ion-content>
+</ion-view>

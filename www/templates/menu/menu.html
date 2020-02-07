@@ -1,0 +1,38 @@
+<ion-view>
+    <ion-nav-bar class="bar-stable l-app-hdr">
+        <ion-nav-title>
+            <p>Home</p>
+        </ion-nav-title>
+        <ion-nav-buttons side="right">
+            <i class="icon ion-ios-search placeholder-icon" ng-click="searchitem()"></i>
+        </ion-nav-buttons>
+        <ion-nav-back-button>
+        </ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-content>
+        <ion-slide-box auto-play='true' does-continue='true' slide-interval="3000">
+            <ion-slide ng-repeat="img in sliderimages">
+                <!-- <img class="custom-class" ng-src="{{img.src}}" /> -->
+                <picture>
+                    <source media="(min-width: 767px)" ng-srcset="{{img.src_lg}}">
+                    <source media="(min-width: 567px)" ng-srcset="{{img.src_sm}}">
+                    <img class="custom-class" ng-src="{{img.src_sm}}" />
+                </picture>
+            </ion-slide>
+        </ion-slide-box>
+        <div class="menu-sec-2-hdr font-size-20px font-weight-600 padding text-center"><img src="img/hmpg-catg-icon.svg" alt="category icon"><span>Categories</span></div>
+        <div class="row menu-catg-rw" style="flex-wrap: wrap;">
+            <div class="col menu-catg-cont text-center" ng-repeat="item in categories | limitTo:6"
+                ng-click="gotoitems(item.catg_id)">
+                <div class="menu-catg-name">
+                    <p class="font-size-22px">{{item.catg_name}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="menu-sec-2-catg-btn text-center">
+            <button class="button" ng-click="gotomenu()">
+                See All categories
+            </button>
+        </div>
+    </ion-content>
+</ion-view>
