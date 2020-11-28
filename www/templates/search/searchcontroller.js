@@ -1385,7 +1385,7 @@ app.controller('SearchController', ['$scope', '$window','$state', function ($sco
     //             "modifiedTime": 1512652693000
     //         }
     //     ],
-    //     "href": "http://api.clover.com/v3/merchants/03ZTNPJW6K942/items?limit=100"
+   
     // }
     $scope.items = JSON.parse($window.localStorage.getItem('menu_items'));
 
